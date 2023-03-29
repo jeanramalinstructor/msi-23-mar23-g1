@@ -15,6 +15,7 @@ spring:
       path: /h2-console
   
   jpa:
+    defer-datasource-initialization: true
     hibernate:
       ddl-auto: create-drop
     properties:
@@ -24,6 +25,10 @@ spring:
         '[format_sql]': false
         '[event.merge.entity_copy_observer]': allow
     show-sql: true
+  sql:
+    init:
+      mode: always
+      platform: h2
 
 management:
   endpoints:
