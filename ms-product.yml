@@ -24,6 +24,11 @@ spring:
         '[format_sql]': false
         '[event.merge.entity_copy_observer]': allow
     show-sql: true
+
+  boot:
+    admin:
+      client:
+        enabled: true
     
 management:
   endpoints:

@@ -30,6 +30,11 @@ spring:
       mode: always
       platform: h2
 
+  boot:
+    admin:
+      client:
+        enabled: true
+
 management:
   endpoints:
     web:

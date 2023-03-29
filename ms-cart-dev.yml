@@ -27,6 +27,11 @@ spring:
       mode: always
       platform: sql
 
+  boot:
+    admin:
+      client:
+        enabled: true
+
 management:
   endpoints:
     web:
