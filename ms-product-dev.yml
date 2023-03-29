@@ -25,7 +25,14 @@ spring:
   boot:
     admin:
       client:
-        enabled: true    
+        enabled: true
+
+  zipkin:
+    enabled: true
+    sender:
+      type: kafka
+    kafka:
+      topic: zipkin
     
 management:
   endpoints:

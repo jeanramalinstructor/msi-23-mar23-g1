@@ -32,6 +32,13 @@ spring:
       client:
         enabled: true
 
+  zipkin:
+    enabled: true
+    sender:
+      type: kafka
+    kafka:
+      topic: zipkin
+
 management:
   endpoints:
     web:
