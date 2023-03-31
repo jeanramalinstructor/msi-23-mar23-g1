@@ -2,6 +2,12 @@ server:
   port: ${PORT:0}
 
 spring:
+
+  cloud:
+  
+    bus:
+      enabled: true
+      destination: springCloudBus
     
   datasource:
     driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
