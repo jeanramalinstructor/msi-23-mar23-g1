@@ -62,7 +62,7 @@ eureka:
     instance-id: ${spring.application.name}:${spring.application.instance_id:${random.value}}
         
 configuration:
-    texto: Configurando entorno Desarrollo actualizado...
+    texto: Configurando entorno Desarrollo...
     autor:
         nombre: John Doe
         email: johndoe@email.com
